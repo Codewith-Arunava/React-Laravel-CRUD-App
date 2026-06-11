@@ -1,13 +1,31 @@
+import { Routes, Route, Navigate } from 'react-router';
+import { AuthProvider } from './context/AuthContext';
+import ProtectedRoute from './components/ProtectedRoute';
+import Login from './pages/Login';
+import Register from './pages/Register';
+import Posts from './pages/Posts';
 
-
-function App() {
- 
-
+export default function App() {
   return (
-    <>
-      Hello World
-    </>
-  )
-}
+    <AuthProvider>
+      <Routes>
+        {/* Public */}
+        <Route path="/login"    element={<Login />} />
+        <Route path="/register" element={<Register />} />
 
-export default App
+        {/* Protected */}
+        <Route
+          path="/posts"
+          element={
+            <ProtectedRoute>
+              <Posts />
+            </ProtectedRoute>
+          }
+        />
+
+        {/* Default redirect */}
+        <Route path="*" element={<Navigate to="/posts" replace />} />
+      </Routes>
+    </AuthProvider>
+  );
+}
