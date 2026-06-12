@@ -5,7 +5,7 @@ A full-stack **Post Management System** — React 19 frontend + Laravel 13 REST 
 ---
 
 ## 🛠️ Tech Stack
-
+ 
 | Layer | Tech |
 |---|---| 
 | Frontend | React 19, Vite, React Router v7, Axios |
