@@ -10,7 +10,7 @@ A full-stack **Post Management System** — React 19 frontend + Laravel 13 REST 
 |---|---|  
 | Frontend | React 19, Vite, React Router v7, Axios |
 | Backend | Laravel 13 (PHP 8.3+), Laravel Sanctum |
-| Database | SQLite (no setup needed) |
+| Database | SQLite (no setup needed) | 
 | Styling | Vanilla CSS |
 
 ---
