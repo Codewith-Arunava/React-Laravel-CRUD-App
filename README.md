@@ -4,7 +4,7 @@ A full-stack **Post Management System** — React 19 frontend + Laravel 13 REST 
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Tech Stack 
   
 | Layer | Tech |
 |---|---|  
