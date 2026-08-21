@@ -16,7 +16,7 @@ A full-stack **Post Management System** — React 19 frontend + Laravel 13 REST 
 ---
 
 ## ✅ Prerequisites
-
+  
 - **PHP** >= 8.3 → `php --version`
 - **Composer** >= 2.x → `composer --version`
 - **Node.js** >= 18 → `node --version`
