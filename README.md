@@ -2,7 +2,7 @@
 
 A full-stack **Post Management System** — React 19 frontend + Laravel 13 REST API with token-based authentication (Sanctum) and SQLite database.
   
---- 
+---  
 
 ## 🛠️ Tech Stack   
     
